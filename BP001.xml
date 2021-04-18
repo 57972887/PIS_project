@@ -89,8 +89,8 @@
 	</transition>
 	<transition>
 		<id>t10</id>
-		<x>3960</x>
-		<y>138</y>
+		<x>3964</x>
+		<y>144</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -103,7 +103,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdiť meno odosielateľa</label>
 	</transition>
 	<transition>
 		<id>t12</id>
@@ -112,7 +112,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdiť adresu odosielateľa</label>
 	</transition>
 	<transition>
 		<id>t13</id>
@@ -121,7 +121,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdiť meno prijímateľa</label>
 	</transition>
 	<transition>
 		<id>t14</id>
@@ -130,7 +130,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdiť adresu prijímateľa</label>
 	</transition>
 	<transition>
 		<id>t15</id>
@@ -139,7 +139,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zamietnúť meno odosielateľa</label>
 	</transition>
 	<transition>
 		<id>t16</id>
@@ -148,7 +148,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zamietnuť adresu odosielateľa</label>
 	</transition>
 	<transition>
 		<id>t17</id>
@@ -157,7 +157,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zamietnuť meno prijímateľa</label>
 	</transition>
 	<transition>
 		<id>t18</id>
@@ -166,16 +166,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
-	</transition>
-	<transition>
-		<id>t19</id>
-		<x>2310</x>
-		<y>335</y>
-		<layout>
-			<offset>0</offset>
-		</layout>
-		<label></label>
+		<label>Zamietnuť adresu prijímateľa</label>
 	</transition>
 	<transition>
 		<id>t20</id>
@@ -184,12 +175,12 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zamietni zásielku</label>
 	</transition>
 	<transition>
 		<id>t21</id>
-		<x>2475</x>
-		<y>141</y>
+		<x>2315</x>
+		<y>144</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -442,8 +433,8 @@
 	</place>
 	<place>
 		<id>p12</id>
-		<x>327</x>
-		<y>38</y>
+		<x>344</x>
+		<y>36</y>
 		<label></label>
 		<tokens>1</tokens>
 		<static>false</static>
@@ -452,7 +443,7 @@
 		<id>p14</id>
 		<x>2316</x>
 		<y>546</y>
-		<label>Adresa odosielateľa</label>
+		<label>Overená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -460,7 +451,7 @@
 		<id>p18</id>
 		<x>1805</x>
 		<y>309</y>
-		<label></label>
+		<label>Meno odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -468,7 +459,7 @@
 		<id>p19</id>
 		<x>1742</x>
 		<y>429</y>
-		<label></label>
+		<label>Adresa odosiealateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -476,7 +467,7 @@
 		<id>p20</id>
 		<x>1730</x>
 		<y>545</y>
-		<label></label>
+		<label>Meno prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -484,7 +475,7 @@
 		<id>p21</id>
 		<x>1757</x>
 		<y>734</y>
-		<label></label>
+		<label>Adresa odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -492,15 +483,7 @@
 		<id>p22</id>
 		<x>1286</x>
 		<y>519</y>
-		<label></label>
-		<tokens>0</tokens>
-		<static>false</static>
-	</place>
-	<place>
-		<id>p23</id>
-		<x>2306</x>
-		<y>141</y>
-		<label>Overená zásielka</label>
+		<label>Neoverená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -564,7 +547,7 @@
 		<id>p37</id>
 		<x>2325</x>
 		<y>1197</y>
-		<label></label>
+		<label>Fyzické odoslanie zásielky</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -899,13 +882,6 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a60</id>
-		<type>regular</type>
-		<sourceId>p14</sourceId>
-		<destinationId>t19</destinationId>
-		<multiplicity>4</multiplicity>
-	</arc>
-	<arc>
 		<id>a63</id>
 		<type>regular</type>
 		<sourceId>t15</sourceId>
@@ -939,15 +915,6 @@
 		<sourceId>p22</sourceId>
 		<destinationId>t20</destinationId>
 		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a69</id>
-		<type>reset</type>
-		<sourceId>p22</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-		<breakPoint><x>956</x><y>537</y></breakPoint>
-		<breakPoint><x>954</x><y>546</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a71</id>
@@ -986,13 +953,6 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a76</id>
-		<type>regular</type>
-		<sourceId>t19</sourceId>
-		<destinationId>p23</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
 		<id>a77</id>
 		<type>regular</type>
 		<sourceId>t5</sourceId>
@@ -1013,13 +973,7 @@
 		<sourceId>t20</sourceId>
 		<destinationId>p24</destinationId>
 		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a80</id>
-		<type>regular</type>
-		<sourceId>p23</sourceId>
-		<destinationId>t21</destinationId>
-		<multiplicity>1</multiplicity>
+		<breakPoint><x>887</x><y>610</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a81</id>
@@ -1190,7 +1144,7 @@
 		<sourceId>p37</sourceId>
 		<destinationId>t10</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3540</x><y>1095</y></breakPoint>
+		<breakPoint><x>3548</x><y>1192</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a128</id>
@@ -1198,7 +1152,7 @@
 		<sourceId>t10</sourceId>
 		<destinationId>p36</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3825</x><y>1449</y></breakPoint>
+		<breakPoint><x>3980</x><y>1546</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a129</id>
@@ -1447,5 +1401,20 @@
 		<destinationId>t46</destinationId>
 		<multiplicity>1</multiplicity>
 		<breakPoint><x>2492</x><y>3338</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a180</id>
+		<type>regular</type>
+		<sourceId>p14</sourceId>
+		<destinationId>t21</destinationId>
+		<multiplicity>4</multiplicity>
+	</arc>
+	<arc>
+		<id>a181</id>
+		<type>reset</type>
+		<sourceId>p22</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1123</x><y>519</y></breakPoint>
 	</arc>
 </document>
