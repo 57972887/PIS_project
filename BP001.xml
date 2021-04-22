@@ -26,7 +26,7 @@
 	<!-- TRANSITIONS -->
 	<transition>
 		<id>t1</id>
-		<x>340</x>
+		<x>700</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -35,8 +35,8 @@
 	</transition>
 	<transition>
 		<id>t2</id>
-		<x>1460</x>
-		<y>2020</y>
+		<x>340</x>
+		<y>260</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -44,7 +44,7 @@
 	</transition>
 	<transition>
 		<id>t4</id>
-		<x>740</x>
+		<x>1060</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -53,7 +53,7 @@
 	</transition>
 	<transition>
 		<id>t5</id>
-		<x>1180</x>
+		<x>1460</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -62,7 +62,7 @@
 	</transition>
 	<transition>
 		<id>t6</id>
-		<x>1660</x>
+		<x>2020</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -71,8 +71,8 @@
 	</transition>
 	<transition>
 		<id>t8</id>
-		<x>100</x>
-		<y>1260</y>
+		<x>540</x>
+		<y>380</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -80,8 +80,8 @@
 	</transition>
 	<transition>
 		<id>t9</id>
-		<x>2020</x>
-		<y>140</y>
+		<x>2010</x>
+		<y>484</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -98,8 +98,8 @@
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>2100</x>
-		<y>340</y>
+		<x>4208</x>
+		<y>3234</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -107,8 +107,8 @@
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>1940</x>
-		<y>420</y>
+		<x>4238</x>
+		<y>3438</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -116,8 +116,8 @@
 	</transition>
 	<transition>
 		<id>t13</id>
-		<x>1900</x>
-		<y>580</y>
+		<x>4210</x>
+		<y>3628</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -125,8 +125,8 @@
 	</transition>
 	<transition>
 		<id>t14</id>
-		<x>2060</x>
-		<y>740</y>
+		<x>4216</x>
+		<y>3826</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -134,8 +134,8 @@
 	</transition>
 	<transition>
 		<id>t15</id>
-		<x>1500</x>
-		<y>340</y>
+		<x>3102</x>
+		<y>3234</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -143,8 +143,8 @@
 	</transition>
 	<transition>
 		<id>t16</id>
-		<x>1500</x>
-		<y>420</y>
+		<x>3106</x>
+		<y>3428</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -152,8 +152,8 @@
 	</transition>
 	<transition>
 		<id>t17</id>
-		<x>1540</x>
-		<y>540</y>
+		<x>3112</x>
+		<y>3598</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -161,8 +161,8 @@
 	</transition>
 	<transition>
 		<id>t18</id>
-		<x>1540</x>
-		<y>740</y>
+		<x>3110</x>
+		<y>3814</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -170,8 +170,8 @@
 	</transition>
 	<transition>
 		<id>t20</id>
-		<x>1100</x>
-		<y>980</y>
+		<x>1544</x>
+		<y>698</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -206,8 +206,8 @@
 	</transition>
 	<transition>
 		<id>t28</id>
-		<x>3498</x>
-		<y>142</y>
+		<x>3500</x>
+		<y>140</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -215,8 +215,8 @@
 	</transition>
 	<transition>
 		<id>t29</id>
-		<x>3492</x>
-		<y>301</y>
+		<x>3500</x>
+		<y>300</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -233,8 +233,8 @@
 	</transition>
 	<transition>
 		<id>t35</id>
-		<x>1460</x>
-		<y>1420</y>
+		<x>340</x>
+		<y>140</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -243,7 +243,7 @@
 	<transition>
 		<id>t36</id>
 		<x>340</x>
-		<y>2740</y>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -251,8 +251,8 @@
 	</transition>
 	<transition>
 		<id>t37</id>
-		<x>780</x>
-		<y>2940</y>
+		<x>620</x>
+		<y>1860</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -260,8 +260,8 @@
 	</transition>
 	<transition>
 		<id>t38</id>
-		<x>780</x>
-		<y>2780</y>
+		<x>620</x>
+		<y>1740</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -269,17 +269,17 @@
 	</transition>
 	<transition>
 		<id>t39</id>
-		<x>1140</x>
-		<y>2860</y>
+		<x>860</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prihlásiť sa</label>
+		<label>Prihlásenie</label>
 	</transition>
 	<transition>
 		<id>t40</id>
-		<x>1620</x>
-		<y>2860</y>
+		<x>1180</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -287,8 +287,8 @@
 	</transition>
 	<transition>
 		<id>t41</id>
-		<x>1940</x>
-		<y>2740</y>
+		<x>1460</x>
+		<y>1740</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -296,8 +296,8 @@
 	</transition>
 	<transition>
 		<id>t42</id>
-		<x>1980</x>
-		<y>2940</y>
+		<x>1460</x>
+		<y>1860</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -305,8 +305,8 @@
 	</transition>
 	<transition>
 		<id>t43</id>
-		<x>2340</x>
-		<y>2860</y>
+		<x>1900</x>
+		<y>1940</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -314,8 +314,8 @@
 	</transition>
 	<transition>
 		<id>t44</id>
-		<x>2420</x>
-		<y>2660</y>
+		<x>2100</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -323,8 +323,8 @@
 	</transition>
 	<transition>
 		<id>t45</id>
-		<x>2220</x>
-		<y>3020</y>
+		<x>1740</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -332,8 +332,8 @@
 	</transition>
 	<transition>
 		<id>t46</id>
-		<x>3100</x>
-		<y>2540</y>
+		<x>2740</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -341,8 +341,8 @@
 	</transition>
 	<transition>
 		<id>t47</id>
-		<x>3460</x>
-		<y>2340</y>
+		<x>2740</x>
+		<y>1620</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -350,8 +350,8 @@
 	</transition>
 	<transition>
 		<id>t48</id>
-		<x>2900</x>
-		<y>2460</y>
+		<x>2380</x>
+		<y>1820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -359,8 +359,8 @@
 	</transition>
 	<transition>
 		<id>t49</id>
-		<x>300</x>
-		<y>1060</y>
+		<x>700</x>
+		<y>540</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -368,8 +368,8 @@
 	</transition>
 	<transition>
 		<id>t50</id>
-		<x>3967</x>
-		<y>851</y>
+		<x>3980</x>
+		<y>860</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -377,8 +377,8 @@
 	</transition>
 	<transition>
 		<id>t51</id>
-		<x>3220</x>
-		<y>1980</y>
+		<x>2740</x>
+		<y>1380</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -386,25 +386,196 @@
 	</transition>
 	<transition>
 		<id>t52</id>
-		<x>1780</x>
-		<y>2180</y>
+		<x>1020</x>
+		<y>1500</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
 		<label>Vybaviť ďalšiu zásielku</label>
 	</transition>
+	<transition>
+		<id>t53</id>
+		<x>2220</x>
+		<y>1740</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Podpísať elektronickým podpisom</label>
+	</transition>
+	<transition>
+		<id>t54</id>
+		<x>2020</x>
+		<y>1580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Vygenerovať elektrický podpis</label>
+	</transition>
+	<transition>
+		<id>t55</id>
+		<x>1700</x>
+		<y>1940</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Neúpešná verifikácia</label>
+	</transition>
+	<transition>
+		<id>t56</id>
+		<x>860</x>
+		<y>1580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Chybné zadanie údajov</label>
+	</transition>
+	<transition>
+		<id>t57</id>
+		<x>4260</x>
+		<y>86</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odosielateľ vloží zásielku do boxu</label>
+	</transition>
+	<transition>
+		<id>t58</id>
+		<x>5578</x>
+		<y>698</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Prevezenie zásielky na pobočku pošty</label>
+	</transition>
+	<transition>
+		<id>t59</id>
+		<x>5054</x>
+		<y>1034</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Úspešná verifkácia údajov</label>
+	</transition>
+	<transition>
+		<id>t60</id>
+		<x>5164</x>
+		<y>1342</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Neúspešná verifikácia údajov</label>
+	</transition>
+	<transition>
+		<id>t63</id>
+		<x>4260</x>
+		<y>380</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Box odváži a vyhodnotí predbežnú cenu zásielky</label>
+	</transition>
+	<transition>
+		<id>t64</id>
+		<x>4460</x>
+		<y>540</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Vyber 1. triedu</label>
+	</transition>
+	<transition>
+		<id>t65</id>
+		<x>4460</x>
+		<y>700</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Vyber 2. triedu</label>
+	</transition>
+	<transition>
+		<id>t66</id>
+		<x>4820</x>
+		<y>660</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Vyhodnoť celkovú cenu</label>
+	</transition>
+	<transition>
+		<id>t67</id>
+		<x>5213</x>
+		<y>660</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Zaplať cenu zásielky (cez terminál)</label>
+	</transition>
+	<transition>
+		<id>t68</id>
+		<x>5141</x>
+		<y>432</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Uzamknutie boxu</label>
+	</transition>
+	<transition>
+		<id>t69</id>
+		<x>4124</x>
+		<y>1610</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Zahoď zásielku</label>
+	</transition>
+	<transition>
+		<id>t70</id>
+		<x>1548</x>
+		<y>290</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Neúšpešné overenie údajov</label>
+	</transition>
+	<transition>
+		<id>t71</id>
+		<x>4110</x>
+		<y>3018</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Overenie údajov</label>
+	</transition>
+	<transition>
+		<id>t72</id>
+		<x>4750</x>
+		<y>3530</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Ukončiť overovanie</label>
+	</transition>
+	<transition>
+		<id>t73</id>
+		<x>3156</x>
+		<y>4114</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Ukončiť overovanie</label>
+	</transition>
 	<!-- PLACES -->
 	<place>
 		<id>p3</id>
-		<x>540</x>
-		<y>60</y>
+		<x>860</x>
+		<y>100</y>
 		<label>Meno odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p4</id>
-		<x>940</x>
+		<x>1260</x>
 		<y>140</y>
 		<label>Pokračovanie vypĺňania údajov</label>
 		<tokens>0</tokens>
@@ -412,7 +583,7 @@
 	</place>
 	<place>
 		<id>p5</id>
-		<x>540</x>
+		<x>860</x>
 		<y>180</y>
 		<label>Adresa odosielateľa</label>
 		<tokens>0</tokens>
@@ -420,23 +591,23 @@
 	</place>
 	<place>
 		<id>p6</id>
-		<x>740</x>
-		<y>420</y>
+		<x>860</x>
+		<y>300</y>
 		<label>Meno prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p7</id>
-		<x>740</x>
-		<y>540</y>
+		<x>860</x>
+		<y>380</y>
 		<label>Adresa prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p8</id>
-		<x>1420</x>
+		<x>1700</x>
 		<y>140</y>
 		<label>Zásielka je pripravená na prevzatie poštou</label>
 		<tokens>0</tokens>
@@ -444,80 +615,80 @@
 	</place>
 	<place>
 		<id>p9</id>
-		<x>100</x>
-		<y>500</y>
+		<x>700</x>
+		<y>380</y>
 		<label>Počet zasielok</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p10</id>
-		<x>1860</x>
-		<y>140</y>
+		<x>2018</x>
+		<y>286</y>
 		<label>Pripravená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p12</id>
-		<x>340</x>
-		<y>20</y>
+		<x>700</x>
+		<y>60</y>
 		<label>Obmedzovač_1</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p14</id>
-		<x>2300</x>
-		<y>540</y>
+		<x>2306</x>
+		<y>476</y>
 		<label>Overená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p18</id>
-		<x>1820</x>
-		<y>300</y>
+		<x>3686</x>
+		<y>3240</y>
 		<label>Meno odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p19</id>
-		<x>1740</x>
-		<y>420</y>
+		<x>3692</x>
+		<y>3420</y>
 		<label>Adresa odosiealateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p20</id>
-		<x>1740</x>
-		<y>540</y>
+		<x>3704</x>
+		<y>3600</y>
 		<label>Meno prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p21</id>
-		<x>1740</x>
-		<y>740</y>
+		<x>3734</x>
+		<y>3822</y>
 		<label>Adresa odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p22</id>
-		<x>1300</x>
-		<y>500</y>
+		<x>1547</x>
+		<y>486</y>
 		<label>Neoverená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p24</id>
-		<x>1300</x>
-		<y>60</y>
+		<x>2700</x>
+		<y>620</y>
 		<label>Obmedzovač_2</label>
 		<tokens>1</tokens>
 		<static>false</static>
@@ -548,135 +719,135 @@
 	</place>
 	<place>
 		<id>p29</id>
-		<x>3288</x>
-		<y>143</y>
+		<x>3300</x>
+		<y>140</y>
 		<label>Celková cena</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p36</id>
-		<x>900</x>
-		<y>1580</y>
+		<x>180</x>
+		<y>140</y>
 		<label>START</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p37</id>
-		<x>2340</x>
-		<y>1260</y>
+		<x>540</x>
+		<y>140</y>
 		<label>Fyzické odoslanie zásielky</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p38</id>
-		<x>1460</x>
-		<y>2340</y>
+		<x>340</x>
+		<y>1580</y>
 		<label>Formulár pre digitálnu poštu</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p39</id>
-		<x>540</x>
-		<y>2940</y>
+		<x>500</x>
+		<y>1860</y>
 		<label>Meno</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p40</id>
-		<x>580</x>
-		<y>2780</y>
+		<x>500</x>
+		<y>1740</y>
 		<label>Heslo</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p42</id>
-		<x>940</x>
-		<y>2860</y>
+		<x>740</x>
+		<y>1820</y>
 		<label>Vyplené údaje</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p43</id>
-		<x>1380</x>
-		<y>2860</y>
+		<x>1020</x>
+		<y>1820</y>
 		<label>Prihlásený</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p44</id>
-		<x>1820</x>
-		<y>2740</y>
+		<x>1300</x>
+		<y>1740</y>
 		<label>Meno prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p46</id>
-		<x>1820</x>
-		<y>2940</y>
+		<x>1300</x>
+		<y>1860</y>
 		<label>Adresa prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p47</id>
-		<x>2140</x>
-		<y>2860</y>
+		<x>1580</x>
+		<y>1820</y>
 		<label>Prijímateľ je zadaný</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p48</id>
-		<x>2540</x>
-		<y>2860</y>
+		<x>2100</x>
+		<y>1940</y>
 		<label>Počet dokumentov</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p50</id>
-		<x>2660</x>
-		<y>2540</y>
+		<x>2100</x>
+		<y>1660</y>
 		<label>Spracovaná pošta</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p51</id>
-		<x>3340</x>
-		<y>2460</y>
+		<x>2740</x>
+		<y>1740</y>
 		<label>Zaplatená pošta</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p52</id>
-		<x>2180</x>
-		<y>2740</y>
+		<x>1940</x>
+		<y>1820</y>
 		<label>Prijímateľ je verifikovaný</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p53</id>
-		<x>3020</x>
-		<y>2460</y>
+		<x>2580</x>
+		<y>1820</y>
 		<label>Celková cena</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p54</id>
-		<x>2620</x>
+		<x>3020</x>
 		<y>1060</y>
 		<label>Celkový počet zásielok</label>
 		<tokens>0</tokens>
@@ -684,17 +855,153 @@
 	</place>
 	<place>
 		<id>p55</id>
-		<x>3967</x>
-		<y>490</y>
-		<label>Počet platieb</label>
+		<x>3980</x>
+		<y>500</y>
+		<label>Prevzaté zásielky</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p56</id>
-		<x>3420</x>
-		<y>2180</y>
+		<x>2740</x>
+		<y>1500</y>
 		<label>Pošta vybavená</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p57</id>
+		<x>2300</x>
+		<y>1820</y>
+		<label>Podpísaná pošta</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p58</id>
+		<x>2220</x>
+		<y>1580</y>
+		<label>Elektronický podpis</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p59</id>
+		<x>1740</x>
+		<y>1580</y>
+		<label>Nárok na elektronický podpis</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p60</id>
+		<x>4260</x>
+		<y>220</y>
+		<label>Zásielka je v boxe</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p61</id>
+		<x>5414</x>
+		<y>1066</y>
+		<label>Zásielka je na pošte</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p65</id>
+		<x>4260</x>
+		<y>540</y>
+		<label>Odvážená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p66</id>
+		<x>4620</x>
+		<y>620</y>
+		<label>Prioritizovaná zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p67</id>
+		<x>5020</x>
+		<y>660</y>
+		<label>Ohodnotená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p68</id>
+		<x>5136</x>
+		<y>560</y>
+		<label>Zaplatená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p69</id>
+		<x>5520</x>
+		<y>452</y>
+		<label>Uzamknutá zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p70</id>
+		<x>4554</x>
+		<y>324</y>
+		<label>Obmedzovač_3</label>
+		<tokens>1</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p71</id>
+		<x>4484</x>
+		<y>1360</y>
+		<label>Neverifikovaní zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p72</id>
+		<x>3672</x>
+		<y>2698</y>
+		<label>Zásielka na overenie</label>
+		<tokens>1</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p73</id>
+		<x>2728</x>
+		<y>3592</y>
+		<label>Čiastočne neoverená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p74</id>
+		<x>4988</x>
+		<y>3530</y>
+		<label>Overená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p75</id>
+		<x>4496</x>
+		<y>3528</y>
+		<label>Čiastočne overená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p76</id>
+		<x>2412</x>
+		<y>4102</y>
+		<label>Neoverená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -805,62 +1112,6 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a41</id>
-		<type>regular</type>
-		<sourceId>t11</sourceId>
-		<destinationId>p14</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a42</id>
-		<type>regular</type>
-		<sourceId>t12</sourceId>
-		<destinationId>p14</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a43</id>
-		<type>regular</type>
-		<sourceId>t13</sourceId>
-		<destinationId>p14</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a44</id>
-		<type>regular</type>
-		<sourceId>t14</sourceId>
-		<destinationId>p14</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a45</id>
-		<type>regular</type>
-		<sourceId>t9</sourceId>
-		<destinationId>p18</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a46</id>
-		<type>regular</type>
-		<sourceId>t9</sourceId>
-		<destinationId>p19</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a47</id>
-		<type>regular</type>
-		<sourceId>t9</sourceId>
-		<destinationId>p20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a48</id>
-		<type>regular</type>
-		<sourceId>t9</sourceId>
-		<destinationId>p21</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
 		<id>a49</id>
 		<type>regular</type>
 		<sourceId>p18</sourceId>
@@ -917,85 +1168,6 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a63</id>
-		<type>regular</type>
-		<sourceId>t15</sourceId>
-		<destinationId>p22</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a64</id>
-		<type>regular</type>
-		<sourceId>t16</sourceId>
-		<destinationId>p22</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a65</id>
-		<type>regular</type>
-		<sourceId>t17</sourceId>
-		<destinationId>p22</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a66</id>
-		<type>regular</type>
-		<sourceId>t18</sourceId>
-		<destinationId>p22</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a67</id>
-		<type>read</type>
-		<sourceId>p22</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a71</id>
-		<type>reset</type>
-		<sourceId>p14</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-		<breakPoint><x>2340</x><y>980</y></breakPoint>
-	</arc>
-	<arc>
-		<id>a72</id>
-		<type>reset</type>
-		<sourceId>p18</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a73</id>
-		<type>reset</type>
-		<sourceId>p19</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a74</id>
-		<type>reset</type>
-		<sourceId>p20</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a75</id>
-		<type>reset</type>
-		<sourceId>p21</sourceId>
-		<destinationId>t20</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a77</id>
-		<type>regular</type>
-		<sourceId>t5</sourceId>
-		<destinationId>p12</destinationId>
-		<multiplicity>1</multiplicity>
-		<breakPoint><x>1180</x><y>20</y></breakPoint>
-	</arc>
-	<arc>
 		<id>a78</id>
 		<type>regular</type>
 		<sourceId>p24</sourceId>
@@ -1008,7 +1180,7 @@
 		<sourceId>t20</sourceId>
 		<destinationId>p24</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>900</x><y>620</y></breakPoint>
+		<breakPoint><x>1812</x><y>686</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a81</id>
@@ -1086,7 +1258,8 @@
 		<sourceId>t30</sourceId>
 		<destinationId>p24</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3020</x><y>60</y></breakPoint>
+		<breakPoint><x>2980</x><y>180</y></breakPoint>
+		<breakPoint><x>2780</x><y>500</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a108</id>
@@ -1277,7 +1450,7 @@
 		<sourceId>p48</sourceId>
 		<destinationId>t44</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>2580</x><y>2740</y></breakPoint>
+		<breakPoint><x>2140</x><y>1940</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a164</id>
@@ -1348,14 +1521,7 @@
 		<sourceId>p53</sourceId>
 		<destinationId>t48</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>2980</x><y>2420</y></breakPoint>
-	</arc>
-	<arc>
-		<id>a175</id>
-		<type>regular</type>
-		<sourceId>p50</sourceId>
-		<destinationId>t48</destinationId>
-		<multiplicity>1</multiplicity>
+		<breakPoint><x>2500</x><y>1900</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a179</id>
@@ -1363,22 +1529,15 @@
 		<sourceId>p43</sourceId>
 		<destinationId>t46</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>2500</x><y>3340</y></breakPoint>
+		<breakPoint><x>1020</x><y>2020</y></breakPoint>
+		<breakPoint><x>2740</x><y>2020</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a180</id>
 		<type>regular</type>
 		<sourceId>p14</sourceId>
 		<destinationId>t21</destinationId>
-		<multiplicity>4</multiplicity>
-	</arc>
-	<arc>
-		<id>a181</id>
-		<type>reset</type>
-		<sourceId>p22</sourceId>
-		<destinationId>t20</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>1140</x><y>500</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a182</id>
@@ -1393,6 +1552,8 @@
 		<sourceId>t8</sourceId>
 		<destinationId>p54</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>540</x><y>1100</y></breakPoint>
+		<breakPoint><x>3020</x><y>1100</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a184</id>
@@ -1400,6 +1561,7 @@
 		<sourceId>p54</sourceId>
 		<destinationId>t49</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>700</x><y>1060</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a185</id>
@@ -1407,6 +1569,9 @@
 		<sourceId>p37</sourceId>
 		<destinationId>t50</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>540</x><y>20</y></breakPoint>
+		<breakPoint><x>4060</x><y>20</y></breakPoint>
+		<breakPoint><x>4060</x><y>860</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a186</id>
@@ -1414,7 +1579,11 @@
 		<sourceId>t50</sourceId>
 		<destinationId>p36</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3940</x><y>1620</y></breakPoint>
+		<breakPoint><x>3980</x><y>1300</y></breakPoint>
+		<breakPoint><x>3540</x><y>1300</y></breakPoint>
+		<breakPoint><x>420</x><y>1300</y></breakPoint>
+		<breakPoint><x>340</x><y>1300</y></breakPoint>
+		<breakPoint><x>180</x><y>1300</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a187</id>
@@ -1443,7 +1612,7 @@
 		<sourceId>p55</sourceId>
 		<destinationId>t50</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3700</x><y>660</y></breakPoint>
+		<breakPoint><x>3860</x><y>660</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a191</id>
@@ -1486,6 +1655,8 @@
 		<sourceId>t51</sourceId>
 		<destinationId>p36</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>100</x><y>1380</y></breakPoint>
+		<breakPoint><x>100</x><y>140</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a200</id>
@@ -1506,6 +1677,452 @@
 		<type>regular</type>
 		<sourceId>p29</sourceId>
 		<destinationId>t29</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a203</id>
+		<type>regular</type>
+		<sourceId>t5</sourceId>
+		<destinationId>p12</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1380</x><y>60</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a204</id>
+		<type>regular</type>
+		<sourceId>p50</sourceId>
+		<destinationId>t53</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a205</id>
+		<type>regular</type>
+		<sourceId>t53</sourceId>
+		<destinationId>p57</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a206</id>
+		<type>regular</type>
+		<sourceId>p57</sourceId>
+		<destinationId>t48</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a207</id>
+		<type>regular</type>
+		<sourceId>p58</sourceId>
+		<destinationId>t53</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a208</id>
+		<type>regular</type>
+		<sourceId>t54</sourceId>
+		<destinationId>p58</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a209</id>
+		<type>regular</type>
+		<sourceId>t45</sourceId>
+		<destinationId>p59</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a210</id>
+		<type>regular</type>
+		<sourceId>p59</sourceId>
+		<destinationId>t54</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a211</id>
+		<type>regular</type>
+		<sourceId>p47</sourceId>
+		<destinationId>t55</destinationId>
+		<multiplicity>2</multiplicity>
+	</arc>
+	<arc>
+		<id>a212</id>
+		<type>regular</type>
+		<sourceId>t55</sourceId>
+		<destinationId>p43</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1140</x><y>1940</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a213</id>
+		<type>regular</type>
+		<sourceId>p42</sourceId>
+		<destinationId>t56</destinationId>
+		<multiplicity>2</multiplicity>
+	</arc>
+	<arc>
+		<id>a214</id>
+		<type>regular</type>
+		<sourceId>t56</sourceId>
+		<destinationId>p38</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a215</id>
+		<type>regular</type>
+		<sourceId>t57</sourceId>
+		<destinationId>p60</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a218</id>
+		<type>regular</type>
+		<sourceId>p61</sourceId>
+		<destinationId>t59</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a219</id>
+		<type>regular</type>
+		<sourceId>p61</sourceId>
+		<destinationId>t60</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a225</id>
+		<type>regular</type>
+		<sourceId>p60</sourceId>
+		<destinationId>t63</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a226</id>
+		<type>regular</type>
+		<sourceId>t63</sourceId>
+		<destinationId>p65</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a227</id>
+		<type>regular</type>
+		<sourceId>p65</sourceId>
+		<destinationId>t64</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a228</id>
+		<type>regular</type>
+		<sourceId>p65</sourceId>
+		<destinationId>t65</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a229</id>
+		<type>regular</type>
+		<sourceId>t64</sourceId>
+		<destinationId>p66</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a230</id>
+		<type>regular</type>
+		<sourceId>t65</sourceId>
+		<destinationId>p66</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a231</id>
+		<type>regular</type>
+		<sourceId>p66</sourceId>
+		<destinationId>t66</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a232</id>
+		<type>regular</type>
+		<sourceId>t66</sourceId>
+		<destinationId>p67</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a233</id>
+		<type>regular</type>
+		<sourceId>p67</sourceId>
+		<destinationId>t67</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a234</id>
+		<type>regular</type>
+		<sourceId>t67</sourceId>
+		<destinationId>p68</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a235</id>
+		<type>regular</type>
+		<sourceId>p68</sourceId>
+		<destinationId>t68</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a236</id>
+		<type>regular</type>
+		<sourceId>t68</sourceId>
+		<destinationId>p69</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a237</id>
+		<type>regular</type>
+		<sourceId>p69</sourceId>
+		<destinationId>t58</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a238</id>
+		<type>regular</type>
+		<sourceId>p70</sourceId>
+		<destinationId>t57</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a239</id>
+		<type>regular</type>
+		<sourceId>t68</sourceId>
+		<destinationId>p70</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a240</id>
+		<type>regular</type>
+		<sourceId>t58</sourceId>
+		<destinationId>p61</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a241</id>
+		<type>regular</type>
+		<sourceId>p8</sourceId>
+		<destinationId>t57</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a243</id>
+		<type>regular</type>
+		<sourceId>t60</sourceId>
+		<destinationId>p71</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a245</id>
+		<type>regular</type>
+		<sourceId>p54</sourceId>
+		<destinationId>t69</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a246</id>
+		<type>regular</type>
+		<sourceId>p71</sourceId>
+		<destinationId>t69</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a249</id>
+		<type>regular</type>
+		<sourceId>p54</sourceId>
+		<destinationId>t59</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>4230</x><y>1266</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a250</id>
+		<type>regular</type>
+		<sourceId>t9</sourceId>
+		<destinationId>p14</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a251</id>
+		<type>regular</type>
+		<sourceId>p10</sourceId>
+		<destinationId>t70</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a252</id>
+		<type>regular</type>
+		<sourceId>t70</sourceId>
+		<destinationId>p22</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a253</id>
+		<type>regular</type>
+		<sourceId>p22</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a254</id>
+		<type>regular</type>
+		<sourceId>t59</sourceId>
+		<destinationId>p55</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>4431</x><y>915</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a255</id>
+		<type>regular</type>
+		<sourceId>t71</sourceId>
+		<destinationId>p18</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a256</id>
+		<type>regular</type>
+		<sourceId>t71</sourceId>
+		<destinationId>p19</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a257</id>
+		<type>regular</type>
+		<sourceId>t71</sourceId>
+		<destinationId>p20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a258</id>
+		<type>regular</type>
+		<sourceId>t71</sourceId>
+		<destinationId>p21</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a259</id>
+		<type>regular</type>
+		<sourceId>p72</sourceId>
+		<destinationId>t71</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a260</id>
+		<type>regular</type>
+		<sourceId>t15</sourceId>
+		<destinationId>p73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a261</id>
+		<type>regular</type>
+		<sourceId>t11</sourceId>
+		<destinationId>p75</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a262</id>
+		<type>regular</type>
+		<sourceId>t12</sourceId>
+		<destinationId>p75</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a263</id>
+		<type>regular</type>
+		<sourceId>t13</sourceId>
+		<destinationId>p75</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a264</id>
+		<type>regular</type>
+		<sourceId>t14</sourceId>
+		<destinationId>p75</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a265</id>
+		<type>regular</type>
+		<sourceId>p75</sourceId>
+		<destinationId>t72</destinationId>
+		<multiplicity>4</multiplicity>
+	</arc>
+	<arc>
+		<id>a266</id>
+		<type>regular</type>
+		<sourceId>t72</sourceId>
+		<destinationId>p74</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a268</id>
+		<type>reset</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a269</id>
+		<type>reset</type>
+		<sourceId>p20</sourceId>
+		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a270</id>
+		<type>reset</type>
+		<sourceId>p19</sourceId>
+		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a271</id>
+		<type>reset</type>
+		<sourceId>p18</sourceId>
+		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a272</id>
+		<type>regular</type>
+		<sourceId>t16</sourceId>
+		<destinationId>p73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a273</id>
+		<type>regular</type>
+		<sourceId>t17</sourceId>
+		<destinationId>p73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a274</id>
+		<type>regular</type>
+		<sourceId>t18</sourceId>
+		<destinationId>p73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a275</id>
+		<type>regular</type>
+		<sourceId>t73</sourceId>
+		<destinationId>p76</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a276</id>
+		<type>reset</type>
+		<sourceId>p73</sourceId>
+		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>2772</x><y>4014</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a277</id>
+		<type>read</type>
+		<sourceId>p73</sourceId>
+		<destinationId>t73</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 </document>
