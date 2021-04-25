@@ -350,8 +350,8 @@
 	</transition>
 	<transition>
 		<id>t48</id>
-		<x>2380</x>
-		<y>1820</y>
+		<x>2414</x>
+		<y>1822</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -395,8 +395,8 @@
 	</transition>
 	<transition>
 		<id>t53</id>
-		<x>2220</x>
-		<y>1740</y>
+		<x>2296</x>
+		<y>1665</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -563,6 +563,15 @@
 			<offset>0</offset>
 		</layout>
 		<label>Ukončiť overovanie</label>
+	</transition>
+	<transition>
+		<id>t74</id>
+		<x>2186</x>
+		<y>1761</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Nepodpísať</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
@@ -2123,6 +2132,20 @@
 		<type>read</type>
 		<sourceId>p73</sourceId>
 		<destinationId>t73</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a278</id>
+		<type>regular</type>
+		<sourceId>p50</sourceId>
+		<destinationId>t74</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a279</id>
+		<type>regular</type>
+		<sourceId>t74</sourceId>
+		<destinationId>p57</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 </document>
