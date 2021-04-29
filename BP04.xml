@@ -14,7 +14,7 @@
 	<!-- TRANSITIONS -->
 	<transition>
 		<id>t1</id>
-		<x>620</x>
+		<x>700</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -23,7 +23,7 @@
 	</transition>
 	<transition>
 		<id>t2</id>
-		<x>260</x>
+		<x>300</x>
 		<y>460</y>
 		<layout>
 			<offset>0</offset>
@@ -32,7 +32,7 @@
 	</transition>
 	<transition>
 		<id>t3</id>
-		<x>540</x>
+		<x>580</x>
 		<y>460</y>
 		<layout>
 			<offset>0</offset>
@@ -41,7 +41,7 @@
 	</transition>
 	<transition>
 		<id>t4</id>
-		<x>260</x>
+		<x>300</x>
 		<y>220</y>
 		<layout>
 			<offset>0</offset>
@@ -59,7 +59,7 @@
 	</transition>
 	<transition>
 		<id>t6</id>
-		<x>700</x>
+		<x>820</x>
 		<y>580</y>
 		<layout>
 			<offset>0</offset>
@@ -68,7 +68,7 @@
 	</transition>
 	<transition>
 		<id>t7</id>
-		<x>860</x>
+		<x>900</x>
 		<y>460</y>
 		<layout>
 			<offset>0</offset>
@@ -86,7 +86,7 @@
 	</transition>
 	<transition>
 		<id>t9</id>
-		<x>420</x>
+		<x>460</x>
 		<y>580</y>
 		<layout>
 			<offset>0</offset>
@@ -95,7 +95,7 @@
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>700</x>
+		<x>820</x>
 		<y>820</y>
 		<layout>
 			<offset>0</offset>
@@ -140,7 +140,7 @@
 	</transition>
 	<transition>
 		<id>t16</id>
-		<x>100</x>
+		<x>140</x>
 		<y>140</y>
 		<layout>
 			<offset>0</offset>
@@ -150,7 +150,7 @@
 	<!-- PLACES -->
 	<place>
 		<id>p1</id>
-		<x>340</x>
+		<x>420</x>
 		<y>140</y>
 		<label>zasielky na vyzdvihnutie</label>
 		<tokens>5</tokens>
@@ -158,7 +158,7 @@
 	</place>
 	<place>
 		<id>p2</id>
-		<x>420</x>
+		<x>460</x>
 		<y>380</y>
 		<label>zasielka na oznacenie</label>
 		<tokens>0</tokens>
@@ -166,7 +166,7 @@
 	</place>
 	<place>
 		<id>p3</id>
-		<x>700</x>
+		<x>820</x>
 		<y>700</y>
 		<label>poslednych 7 dni na vyzdvihnutie zasielky</label>
 		<tokens>0</tokens>
@@ -174,7 +174,7 @@
 	</place>
 	<place>
 		<id>p4</id>
-		<x>260</x>
+		<x>300</x>
 		<y>340</y>
 		<label>oskenovana zasielka</label>
 		<tokens>0</tokens>
@@ -190,7 +190,7 @@
 	</place>
 	<place>
 		<id>p7</id>
-		<x>540</x>
+		<x>620</x>
 		<y>580</y>
 		<label>oznacena zasielka</label>
 		<tokens>0</tokens>
@@ -198,7 +198,7 @@
 	</place>
 	<place>
 		<id>p8</id>
-		<x>500</x>
+		<x>620</x>
 		<y>820</y>
 		<label>znicenie zasielky</label>
 		<tokens>0</tokens>
@@ -206,7 +206,7 @@
 	</place>
 	<place>
 		<id>p9</id>
-		<x>100</x>
+		<x>140</x>
 		<y>700</y>
 		<label>zasielka vyzdvihnuta</label>
 		<tokens>0</tokens>
