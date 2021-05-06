@@ -23,8 +23,8 @@
 	</transition>
 	<transition>
 		<id>t2</id>
-		<x>300</x>
-		<y>460</y>
+		<x>460</x>
+		<y>380</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -77,8 +77,8 @@
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>340</x>
-		<y>820</y>
+		<x>260</x>
+		<y>860</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -113,7 +113,7 @@
 	</transition>
 	<transition>
 		<id>t15</id>
-		<x>1220</x>
+		<x>1140</x>
 		<y>700</y>
 		<layout>
 			<offset>0</offset>
@@ -140,21 +140,48 @@
 	</transition>
 	<transition>
 		<id>t18</id>
-		<x>700</x>
-		<y>820</y>
+		<x>820</x>
+		<y>780</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
 		<label>skontrolovať čas na sklade / pošta</label>
 	</transition>
 	<transition>
-		<id>t19</id>
-		<x>1180</x>
-		<y>820</y>
+		<id>t20</id>
+		<x>620</x>
+		<y>860</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>ulož zásielku nazad / pošta</label>
+		<label>označiť zásielku za expirovanú / pošta</label>
+	</transition>
+	<transition>
+		<id>t21</id>
+		<x>1020</x>
+		<y>860</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>uložiť zásielku nazad / pošta</label>
+	</transition>
+	<transition>
+		<id>t23</id>
+		<x>300</x>
+		<y>580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>zahájiť proces zničenia zásielky / pošta</label>
+	</transition>
+	<transition>
+		<id>t24</id>
+		<x>820</x>
+		<y>580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>uložiť označenú zásielku / pošta</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
@@ -162,13 +189,13 @@
 		<x>420</x>
 		<y>140</y>
 		<label>zásielky čakajúce na vyzdvihnutie</label>
-		<tokens>5</tokens>
+		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p2</id>
-		<x>460</x>
-		<y>380</y>
+		<x>380</x>
+		<y>460</y>
 		<label>zásielka na vrátenie</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -177,7 +204,7 @@
 		<id>p3</id>
 		<x>820</x>
 		<y>700</y>
-		<label>zásielka expiruje do 7 dní</label>
+		<label>zásielka expiruje do max. 7 dní</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -200,9 +227,9 @@
 	<place>
 		<id>p8</id>
 		<x>140</x>
-		<y>820</y>
+		<y>860</y>
 		<label>zničená zásielka</label>
-		<tokens>0</tokens>
+		<tokens>4</tokens>
 		<static>false</static>
 	</place>
 	<place>
@@ -210,7 +237,7 @@
 		<x>140</x>
 		<y>700</y>
 		<label>zásielka vyzdvihnutá</label>
-		<tokens>0</tokens>
+		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<place>
@@ -231,9 +258,9 @@
 	</place>
 	<place>
 		<id>p12</id>
-		<x>1220</x>
+		<x>1140</x>
 		<y>580</y>
-		<label>zásielka s neplatnými údajmi </label>
+		<label>zásielka s neplatnými údajmi</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -271,17 +298,25 @@
 	</place>
 	<place>
 		<id>p17</id>
-		<x>500</x>
-		<y>820</y>
+		<x>420</x>
+		<y>860</y>
 		<label>expirovaná zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
-		<id>p18</id>
-		<x>940</x>
-		<y>820</y>
-		<label>zásielka ešte neexpirovala</label>
+		<id>p19</id>
+		<x>820</x>
+		<y>860</y>
+		<label>skontrolovaná zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p20</id>
+		<x>580</x>
+		<y>580</y>
+		<label>zásielka už bola označená a vrátila sa nazad</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -504,32 +539,65 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a68</id>
+		<id>a76</id>
 		<type>regular</type>
 		<sourceId>t18</sourceId>
+		<destinationId>p19</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a77</id>
+		<type>regular</type>
+		<sourceId>p19</sourceId>
+		<destinationId>t21</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a79</id>
+		<type>regular</type>
+		<sourceId>p19</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a80</id>
+		<type>regular</type>
+		<sourceId>t20</sourceId>
 		<destinationId>p17</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>740</x><y>820</y></breakPoint>
-		<breakPoint><x>660</x><y>820</y></breakPoint>
 	</arc>
 	<arc>
-		<id>a69</id>
+		<id>a82</id>
 		<type>regular</type>
-		<sourceId>t18</sourceId>
-		<destinationId>p18</destinationId>
+		<sourceId>t23</sourceId>
+		<destinationId>p20</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a70</id>
+		<id>a85</id>
 		<type>regular</type>
-		<sourceId>p18</sourceId>
-		<destinationId>t19</destinationId>
+		<sourceId>p4</sourceId>
+		<destinationId>t23</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a71</id>
+		<id>a87</id>
 		<type>regular</type>
-		<sourceId>t19</sourceId>
+		<sourceId>t21</sourceId>
+		<destinationId>p3</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a88</id>
+		<type>regular</type>
+		<sourceId>p20</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a89</id>
+		<type>regular</type>
+		<sourceId>t24</sourceId>
 		<destinationId>p3</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
