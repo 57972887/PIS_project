@@ -19,7 +19,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zaradenie medzi listy</label>
+		<label>Zaradenie medzi listy / pošta</label>
 	</transition>
 	<transition>
 		<id>t2</id>
@@ -28,7 +28,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zaradenie medzi balíky</label>
+		<label>Zaradenie medzi balíky / pošta</label>
 	</transition>
 	<transition>
 		<id>t3</id>
@@ -37,7 +37,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Nalepenie identifikačného štítku</label>
+		<label>Nalepenie identifikačného štítku / pošta</label>
 	</transition>
 	<transition>
 		<id>t4</id>
@@ -59,12 +59,12 @@
 	</transition>
 	<transition>
 		<id>t7</id>
-		<x>140</x>
+		<x>100</x>
 		<y>100</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prevzatie zásielky</label>
+		<label>Prevzatie zásielky / pošta</label>
 	</transition>
 	<transition>
 		<id>t8</id>
@@ -91,16 +91,16 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Naloženie zásielky</label>
+		<label>Naloženie zásielky / pošta</label>
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>940</x>
-		<y>980</y>
+		<x>860</x>
+		<y>1100</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prevoz do oblastného strediska</label>
+		<label>Prevoz do oblastného strediska / pošta</label>
 	</transition>
 	<transition>
 		<id>t15</id>
@@ -109,16 +109,16 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Manuálne zatriedenie</label>
+		<label>Manuálne zatriedenie / pošta</label>
 	</transition>
 	<transition>
 		<id>t20</id>
-		<x>860</x>
+		<x>820</x>
 		<y>300</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyloženie zásielky</label>
+		<label>Vyloženie zásielky / pošta</label>
 	</transition>
 	<transition>
 		<id>t25</id>
@@ -127,25 +127,25 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odovzdanie zásielky na letisku</label>
+		<label>Odovzdanie zásielky na letisku / pošta</label>
 	</transition>
 	<transition>
 		<id>t26</id>
-		<x>1700</x>
+		<x>1740</x>
 		<y>100</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prijatie zásielky na letisku</label>
+		<label>Prijatie zásielky na letisku / pošta</label>
 	</transition>
 	<transition>
 		<id>t27</id>
-		<x>140</x>
+		<x>100</x>
 		<y>740</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Otvorenie pošty</label>
+		<label>Otvorenie pošty / pošta</label>
 	</transition>
 	<transition>
 		<id>t28</id>
@@ -154,7 +154,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uloženie 2.triedy</label>
+		<label>Uloženie 2.triedy / pošta</label>
 	</transition>
 	<transition>
 		<id>t29</id>
@@ -163,16 +163,16 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Spracovanie 1. triedy</label>
+		<label>Spracovanie 1. triedy / pošta</label>
 	</transition>
 	<transition>
 		<id>t30</id>
-		<x>740</x>
-		<y>1340</y>
+		<x>748</x>
+		<y>1336</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uvoľnené triedenie pre 2.triedu</label>
+		<label>Uvoľnené triedenie pre 2.triedu / pošta</label>
 	</transition>
 	<transition>
 		<id>t31</id>
@@ -203,8 +203,8 @@
 	</transition>
 	<transition>
 		<id>t34</id>
-		<x>1540</x>
-		<y>1260</y>
+		<x>1500</x>
+		<y>1380</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -212,12 +212,12 @@
 	</transition>
 	<transition>
 		<id>t37</id>
-		<x>1740</x>
-		<y>1380</y>
+		<x>1500</x>
+		<y>1180</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Naloženie zásielky</label>
+		<label>Naloženie zásielky / pošta</label>
 	</transition>
 	<transition>
 		<id>t38</id>
@@ -275,7 +275,7 @@
 	</transition>
 	<transition>
 		<id>t45</id>
-		<x>1700</x>
+		<x>1740</x>
 		<y>300</y>
 		<layout>
 			<offset>0</offset>
@@ -289,7 +289,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyloženie zásielok</label>
+		<label>Vyloženie zásielok / pošta</label>
 	</transition>
 	<transition>
 		<id>t48</id>
@@ -298,11 +298,11 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zatvorenie pošty</label>
+		<label>Zatvorenie pošty / pošta</label>
 	</transition>
 	<transition>
 		<id>t49</id>
-		<x>420</x>
+		<x>460</x>
 		<y>820</y>
 		<layout>
 			<offset>0</offset>
@@ -311,12 +311,12 @@
 	</transition>
 	<transition>
 		<id>t50</id>
-		<x>420</x>
+		<x>460</x>
 		<y>1100</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odjazd vozidla</label>
+		<label>Odjazd vozidla / pošta</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
@@ -353,8 +353,8 @@
 	</place>
 	<place>
 		<id>p5</id>
-		<x>740</x>
-		<y>980</y>
+		<x>620</x>
+		<y>1100</y>
 		<label>Naložené zásielky</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -401,7 +401,7 @@
 	</place>
 	<place>
 		<id>p24</id>
-		<x>140</x>
+		<x>100</x>
 		<y>580</y>
 		<label>Pošta otvorená</label>
 		<tokens>0</tokens>
@@ -409,7 +409,7 @@
 	</place>
 	<place>
 		<id>p25</id>
-		<x>140</x>
+		<x>100</x>
 		<y>900</y>
 		<label>Pošta zatvorená</label>
 		<tokens>1</tokens>
@@ -417,8 +417,8 @@
 	</place>
 	<place>
 		<id>p26</id>
-		<x>580</x>
-		<y>1340</y>
+		<x>567</x>
+		<y>1337</y>
 		<label>Zásielky 2.triedy</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -433,17 +433,9 @@
 	</place>
 	<place>
 		<id>p29</id>
-		<x>1540</x>
-		<y>1380</y>
-		<label>Zásielky čakajúce na odvoz</label>
-		<tokens>0</tokens>
-		<static>false</static>
-	</place>
-	<place>
-		<id>p32</id>
-		<x>1340</x>
+		<x>1500</x>
 		<y>1260</y>
-		<label>Zásielka v priehradke destinácie</label>
+		<label>Zásielky čakajúce na odvoz</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -465,7 +457,7 @@
 	</place>
 	<place>
 		<id>p39</id>
-		<x>1700</x>
+		<x>1740</x>
 		<y>220</y>
 		<label>Príchodzia zahraničná pošta</label>
 		<tokens>0</tokens>
@@ -481,7 +473,7 @@
 	</place>
 	<place>
 		<id>p41</id>
-		<x>1220</x>
+		<x>1180</x>
 		<y>1380</y>
 		<label>Triedené zásielky</label>
 		<tokens>0</tokens>
@@ -489,7 +481,7 @@
 	</place>
 	<place>
 		<id>p42</id>
-		<x>420</x>
+		<x>460</x>
 		<y>980</y>
 		<label>Čakajúce vozidlo</label>
 		<tokens>0</tokens>
@@ -498,16 +490,24 @@
 	<place>
 		<id>p44</id>
 		<x>1140</x>
-		<y>980</y>
+		<y>1100</y>
 		<label>Zásielka v oblastnom stredisku</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p45</id>
-		<x>1740</x>
-		<y>1260</y>
+		<x>1500</x>
+		<y>1100</y>
 		<label>Naložené zásielky</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p46</id>
+		<x>1340</x>
+		<y>1460</y>
+		<label>Zásielka v priehradke destinácie</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -737,20 +737,6 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a91</id>
-		<type>regular</type>
-		<sourceId>t33</sourceId>
-		<destinationId>p32</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a92</id>
-		<type>regular</type>
-		<sourceId>p32</sourceId>
-		<destinationId>t34</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
 		<id>a93</id>
 		<type>regular</type>
 		<sourceId>t34</sourceId>
@@ -832,13 +818,6 @@
 		<type>regular</type>
 		<sourceId>t44</sourceId>
 		<destinationId>p40</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a118</id>
-		<type>regular</type>
-		<sourceId>t15</sourceId>
-		<destinationId>p41</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
@@ -1009,5 +988,27 @@
 		<sourceId>t37</sourceId>
 		<destinationId>p45</destinationId>
 		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a153</id>
+		<type>regular</type>
+		<sourceId>t15</sourceId>
+		<destinationId>p29</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a154</id>
+		<type>regular</type>
+		<sourceId>t33</sourceId>
+		<destinationId>p46</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a155</id>
+		<type>regular</type>
+		<sourceId>p46</sourceId>
+		<destinationId>t34</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1500</x><y>1460</y></breakPoint>
 	</arc>
 </document>
