@@ -212,21 +212,12 @@
 	</transition>
 	<transition>
 		<id>t24</id>
-		<x>940</x>
-		<y>1820</y>
-		<layout>
-			<offset>0</offset>
-		</layout>
-		<label>Aplikovať verejný kľúč na digitálny dokument</label>
-	</transition>
-	<transition>
-		<id>t25</id>
-		<x>1340</x>
+		<x>1220</x>
 		<y>1900</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Porovnať jednotlivé podpisy</label>
+		<label>Aplikovať verejný kľúč na podpis</label>
 	</transition>
 	<transition>
 		<id>t26</id>
@@ -235,7 +226,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Výstupy z podpisov sa zhodujú</label>
+		<label>Podpis bol verifikovaný</label>
 	</transition>
 	<transition>
 		<id>t27</id>
@@ -244,7 +235,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Výstupy z podpisov sa nezhodujú</label>
+		<label>Podpis nebol verifikovaný</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
@@ -409,7 +400,7 @@
 	</place>
 	<place>
 		<id>p22</id>
-		<x>700</x>
+		<x>620</x>
 		<y>1900</y>
 		<label>Podpis súkromným kľúčom</label>
 		<tokens>0</tokens>
@@ -432,18 +423,10 @@
 		<static>false</static>
 	</place>
 	<place>
-		<id>p25</id>
-		<x>1220</x>
-		<y>1820</y>
-		<label>Podpis verejným kľúčom</label>
-		<tokens>0</tokens>
-		<static>false</static>
-	</place>
-	<place>
 		<id>p26</id>
 		<x>1540</x>
 		<y>1900</y>
-		<label>Porovnanie jednotlivých podpisov</label>
+		<label>Verifikácia podpisu</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -829,7 +812,7 @@
 		<type>regular</type>
 		<sourceId>t20</sourceId>
 		<destinationId>p21</destinationId>
-		<multiplicity>2</multiplicity>
+		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
 		<id>a55</id>
@@ -860,61 +843,10 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a60</id>
-		<type>read</type>
-		<sourceId>p21</sourceId>
-		<destinationId>t23</destinationId>
-		<multiplicity>2</multiplicity>
-		<breakPoint><x>780</x><y>1700</y></breakPoint>
-	</arc>
-	<arc>
-		<id>a61</id>
-		<type>regular</type>
-		<sourceId>p21</sourceId>
-		<destinationId>t24</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
 		<id>a62</id>
 		<type>regular</type>
 		<sourceId>p24</sourceId>
 		<destinationId>t24</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a63</id>
-		<type>read</type>
-		<sourceId>p21</sourceId>
-		<destinationId>t24</destinationId>
-		<multiplicity>1</multiplicity>
-		<breakPoint><x>700</x><y>1820</y></breakPoint>
-	</arc>
-	<arc>
-		<id>a64</id>
-		<type>regular</type>
-		<sourceId>t24</sourceId>
-		<destinationId>p25</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a65</id>
-		<type>regular</type>
-		<sourceId>p25</sourceId>
-		<destinationId>t25</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a66</id>
-		<type>regular</type>
-		<sourceId>p22</sourceId>
-		<destinationId>t25</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a67</id>
-		<type>regular</type>
-		<sourceId>t25</sourceId>
-		<destinationId>p26</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
@@ -968,5 +900,19 @@
 		<destinationId>p20</destinationId>
 		<multiplicity>1</multiplicity>
 		<breakPoint><x>1340</x><y>1420</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a75</id>
+		<type>regular</type>
+		<sourceId>p22</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a76</id>
+		<type>regular</type>
+		<sourceId>t24</sourceId>
+		<destinationId>p26</destinationId>
+		<multiplicity>1</multiplicity>
 	</arc>
 </document>
