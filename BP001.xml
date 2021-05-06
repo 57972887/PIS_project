@@ -76,7 +76,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Overenie údajov / systém</label>
+		<label>Overenie údajov / pošta</label>
 	</transition>
 	<transition>
 		<id>t10</id>
@@ -148,7 +148,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prirátaj cenu / systém</label>
+		<label>Prirátaj cenu</label>
 	</transition>
 	<transition>
 		<id>t35</id>
@@ -247,7 +247,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Verifikovať prijímateľa / systém</label>
+		<label>Verifikovať prijímateľa </label>
 	</transition>
 	<transition>
 		<id>t46</id>
@@ -265,7 +265,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Evidencia pošty v systéme / systém</label>
+		<label>Evidencia pošty v systéme</label>
 	</transition>
 	<transition>
 		<id>t48</id>
@@ -274,7 +274,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Prirátaj cenu / systém</label>
+		<label>Prirátaj cenu</label>
 	</transition>
 	<transition>
 		<id>t49</id>
@@ -337,7 +337,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Neúpešná verifikácia / systém</label>
+		<label>Neúpešná verifikácia </label>
 	</transition>
 	<transition>
 		<id>t56</id>
@@ -346,7 +346,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Chybné zadanie údajov / systém</label>
+		<label>Chybné zadanie údajov</label>
 	</transition>
 	<transition>
 		<id>t57</id>
@@ -373,7 +373,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Úspešná verifkácia údajov / systém</label>
+		<label>Úspešná verifkácia údajov</label>
 	</transition>
 	<transition>
 		<id>t60</id>
@@ -382,7 +382,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Neúspešná verifikácia údajov / systém</label>
+		<label>Neúspešná verifikácia údajov</label>
 	</transition>
 	<transition>
 		<id>t63</id>
@@ -391,7 +391,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Box odváži a vyhodnotí predbežnú cenu zásielky / systém</label>
+		<label>Box odváži a vyhodnotí predbežnú cenu zásielky</label>
 	</transition>
 	<transition>
 		<id>t64</id>
@@ -418,7 +418,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyhodnoť celkovú cenu / systém</label>
+		<label>Vyhodnoť celkovú cenu</label>
 	</transition>
 	<transition>
 		<id>t67</id>
@@ -436,7 +436,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uzamknutie boxu / systém</label>
+		<label>Uzamknutie boxu</label>
 	</transition>
 	<transition>
 		<id>t69</id>
@@ -454,7 +454,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Neúšpešné overenie údajov / systém</label>
+		<label>Neúšpešné overenie údajov / pošta</label>
 	</transition>
 	<transition>
 		<id>t74</id>

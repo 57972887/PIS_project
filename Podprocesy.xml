@@ -37,7 +37,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vygenerovať dvojicu kľúčov / systém</label>
+		<label>Vygenerovať dvojicu kľúčov</label>
 	</transition>
 	<transition>
 		<id>t5</id>
@@ -46,7 +46,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Evidencia verejného kľúča / systém</label>
+		<label>Evidencia verejného kľúča</label>
 	</transition>
 	<transition>
 		<id>t6</id>
@@ -55,7 +55,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Koniec procesu podpísania / systém</label>
+		<label>Koniec procesu podpísania</label>
 	</transition>
 	<transition>
 		<id>t7</id>
@@ -68,102 +68,102 @@
 	</transition>
 	<transition>
 		<id>t8</id>
-		<x>2060</x>
-		<y>340</y>
+		<x>2100</x>
+		<y>380</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Overenie údajov / systém</label>
+		<label>Overenie údajov / pošta</label>
 	</transition>
 	<transition>
 		<id>t9</id>
-		<x>1260</x>
-		<y>820</y>
+		<x>1620</x>
+		<y>460</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Potvrdiť meno odosielateľa / system</label>
+		<label>Potvrdiť meno odosielateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t10</id>
-		<x>1540</x>
-		<y>820</y>
+		<x>2260</x>
+		<y>460</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamietnúť meno odosielateľa / system</label>
+		<label>Zamietnúť meno odosielateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>1820</x>
-		<y>820</y>
+		<x>1620</x>
+		<y>580</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Potvrdiť adresu odosielateľa / system</label>
+		<label>Potvrdiť adresu odosielateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>2060</x>
-		<y>820</y>
+		<x>2300</x>
+		<y>580</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamietnuť adresu odosielateľa / system</label>
+		<label>Zamietnuť adresu odosielateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t13</id>
-		<x>2340</x>
-		<y>820</y>
+		<x>1620</x>
+		<y>700</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Potvrdiť meno prijímateľa / system</label>
+		<label>Potvrdiť meno prijímateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t14</id>
-		<x>2580</x>
-		<y>820</y>
+		<x>2300</x>
+		<y>700</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamietnuť meno prijímateľa / system</label>
+		<label>Zamietnuť meno prijímateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t15</id>
-		<x>2900</x>
+		<x>1620</x>
 		<y>820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Potvrdiť adresu prijímateľa / system</label>
+		<label>Potvrdiť adresu prijímateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t16</id>
-		<x>3180</x>
+		<x>2300</x>
 		<y>820</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamietnuť adresu prijímateľa / system</label>
+		<label>Zamietnuť adresu prijímateľa / pošta</label>
 	</transition>
 	<transition>
 		<id>t17</id>
-		<x>3340</x>
-		<y>300</y>
+		<x>1700</x>
+		<y>940</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Ukončiť overovanie / system</label>
+		<label>Ukončiť overovanie / pošta</label>
 	</transition>
 	<transition>
 		<id>t18</id>
-		<x>1500</x>
-		<y>1220</y>
+		<x>1380</x>
+		<y>740</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Ukončiť overovanie / system</label>
+		<label>Ukončiť overovanie / pošta</label>
 	</transition>
 	<transition>
 		<id>t19</id>
@@ -172,7 +172,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Príchod elektronickej pošty</label>
+		<label>Evidencia novej elektronickej pošty</label>
 	</transition>
 	<transition>
 		<id>t20</id>
@@ -304,16 +304,16 @@
 	</place>
 	<place>
 		<id>p10</id>
-		<x>2060</x>
-		<y>220</y>
+		<x>2100</x>
+		<y>300</y>
 		<label>Zásielka na overenie</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p11</id>
-		<x>1580</x>
-		<y>580</y>
+		<x>1940</x>
+		<y>460</y>
 		<label>Meno odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -328,48 +328,48 @@
 	</place>
 	<place>
 		<id>p13</id>
-		<x>2460</x>
-		<y>580</y>
+		<x>2020</x>
+		<y>700</y>
 		<label>Meno prijímateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p14</id>
-		<x>2900</x>
-		<y>580</y>
+		<x>2100</x>
+		<y>820</y>
 		<label>Adresa odosielateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p15</id>
-		<x>3340</x>
-		<y>1260</y>
+		<x>2580</x>
+		<y>620</y>
 		<label>Čiastočne neoverená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p16</id>
-		<x>1140</x>
-		<y>1220</y>
+		<x>1380</x>
+		<y>620</y>
 		<label>Čiastočne overená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p17</id>
-		<x>1780</x>
-		<y>1220</y>
+		<x>1380</x>
+		<y>900</y>
 		<label>Overená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p18</id>
-		<x>3340</x>
-		<y>140</y>
+		<x>1700</x>
+		<y>1060</y>
 		<label>Neoverená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -685,6 +685,7 @@
 		<sourceId>p15</sourceId>
 		<destinationId>t17</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>2540</x><y>940</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a37</id>
@@ -692,6 +693,7 @@
 		<sourceId>p15</sourceId>
 		<destinationId>t17</destinationId>
 		<multiplicity>1</multiplicity>
+		<breakPoint><x>2580</x><y>940</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a38</id>
