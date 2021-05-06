@@ -165,6 +165,87 @@
 		</layout>
 		<label>Ukončiť overovanie / system</label>
 	</transition>
+	<transition>
+		<id>t19</id>
+		<x>180</x>
+		<y>1540</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Príchod elektronickej pošty</label>
+	</transition>
+	<transition>
+		<id>t20</id>
+		<x>500</x>
+		<y>1700</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Pošta obsahuje elektronický podpis</label>
+	</transition>
+	<transition>
+		<id>t21</id>
+		<x>1460</x>
+		<y>2140</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Pošta neobsahuje elektronický podpis</label>
+	</transition>
+	<transition>
+		<id>t22</id>
+		<x>1220</x>
+		<y>1580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Vytiahnúť z databázy verejný kľúč</label>
+	</transition>
+	<transition>
+		<id>t23</id>
+		<x>780</x>
+		<y>1580</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Extrahovať údaje o odosielateľovi</label>
+	</transition>
+	<transition>
+		<id>t24</id>
+		<x>940</x>
+		<y>1820</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Aplikovať verejný kľúč na digitálny dokument</label>
+	</transition>
+	<transition>
+		<id>t25</id>
+		<x>1340</x>
+		<y>1900</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Porovnať jednotlivé podpisy</label>
+	</transition>
+	<transition>
+		<id>t26</id>
+		<x>1540</x>
+		<y>1740</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Výstupy z podpisov sa zhodujú</label>
+	</transition>
+	<transition>
+		<id>t27</id>
+		<x>1860</x>
+		<y>1900</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Výstupy z podpisov sa nezhodujú</label>
+	</transition>
 	<!-- PLACES -->
 	<place>
 		<id>p2</id>
@@ -299,6 +380,86 @@
 		<x>3340</x>
 		<y>140</y>
 		<label>Neoverená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p19</id>
+		<x>180</x>
+		<y>1700</y>
+		<label>Neverifikovaná digitálna pošta</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p20</id>
+		<x>500</x>
+		<y>1420</y>
+		<label>Obmedzovač</label>
+		<tokens>1</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p21</id>
+		<x>700</x>
+		<y>1700</y>
+		<label>Digitálny dokument</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p22</id>
+		<x>700</x>
+		<y>1900</y>
+		<label>Podpis súkromným kľúčom</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p23</id>
+		<x>1020</x>
+		<y>1580</y>
+		<label>Údaje o odosielateľovi</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p24</id>
+		<x>1220</x>
+		<y>1700</y>
+		<label>Verejný kľúč odosielateľa</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p25</id>
+		<x>1220</x>
+		<y>1820</y>
+		<label>Podpis verejným kľúčom</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p26</id>
+		<x>1540</x>
+		<y>1900</y>
+		<label>Porovnanie jednotlivých podpisov</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p27</id>
+		<x>1860</x>
+		<y>2140</y>
+		<label>Neoverená zásielka</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p28</id>
+		<x>1540</x>
+		<y>1540</y>
+		<label>Úspešne overená zásielka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -625,5 +786,187 @@
 		<sourceId>t17</sourceId>
 		<destinationId>p18</destinationId>
 		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a49</id>
+		<type>regular</type>
+		<sourceId>t19</sourceId>
+		<destinationId>p19</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a50</id>
+		<type>regular</type>
+		<sourceId>p19</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a51</id>
+		<type>regular</type>
+		<sourceId>p19</sourceId>
+		<destinationId>t21</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>180</x><y>2140</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a52</id>
+		<type>regular</type>
+		<sourceId>p20</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a53</id>
+		<type>regular</type>
+		<sourceId>t20</sourceId>
+		<destinationId>p22</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>500</x><y>1900</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a54</id>
+		<type>regular</type>
+		<sourceId>t20</sourceId>
+		<destinationId>p21</destinationId>
+		<multiplicity>2</multiplicity>
+	</arc>
+	<arc>
+		<id>a55</id>
+		<type>regular</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t23</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a56</id>
+		<type>regular</type>
+		<sourceId>t23</sourceId>
+		<destinationId>p23</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a57</id>
+		<type>regular</type>
+		<sourceId>p23</sourceId>
+		<destinationId>t22</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a58</id>
+		<type>regular</type>
+		<sourceId>t22</sourceId>
+		<destinationId>p24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a60</id>
+		<type>read</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t23</destinationId>
+		<multiplicity>2</multiplicity>
+		<breakPoint><x>780</x><y>1700</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a61</id>
+		<type>regular</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a62</id>
+		<type>regular</type>
+		<sourceId>p24</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a63</id>
+		<type>read</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>700</x><y>1820</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a64</id>
+		<type>regular</type>
+		<sourceId>t24</sourceId>
+		<destinationId>p25</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a65</id>
+		<type>regular</type>
+		<sourceId>p25</sourceId>
+		<destinationId>t25</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a66</id>
+		<type>regular</type>
+		<sourceId>p22</sourceId>
+		<destinationId>t25</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a67</id>
+		<type>regular</type>
+		<sourceId>t25</sourceId>
+		<destinationId>p26</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a68</id>
+		<type>regular</type>
+		<sourceId>p26</sourceId>
+		<destinationId>t26</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a69</id>
+		<type>regular</type>
+		<sourceId>p26</sourceId>
+		<destinationId>t27</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a70</id>
+		<type>regular</type>
+		<sourceId>t27</sourceId>
+		<destinationId>p27</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a71</id>
+		<type>regular</type>
+		<sourceId>t21</sourceId>
+		<destinationId>p27</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a72</id>
+		<type>regular</type>
+		<sourceId>t26</sourceId>
+		<destinationId>p28</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a73</id>
+		<type>regular</type>
+		<sourceId>t27</sourceId>
+		<destinationId>p20</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1860</x><y>1380</y></breakPoint>
+		<breakPoint><x>500</x><y>1380</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a74</id>
+		<type>regular</type>
+		<sourceId>t26</sourceId>
+		<destinationId>p20</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>1340</x><y>1420</y></breakPoint>
 	</arc>
 </document>
